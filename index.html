@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Şule Gebedek | Kişisel Web Sitesi</title>
+    <meta name="keywords" content="C#,Java,Html,Css,AspNet,Sql,JavaScript" />
+    <meta
+      name="description"
+      content="Şule Gebedek | Kişisel Web Sitesi"
+    />
+    <!-- Fonts Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Şule Gebedek</h1>
+
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Sertifikalar</a></li>
+            <li><a href="#courses">Projeler</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <img
+        src="images/sulegebedek.jpg"
+        alt="Şule Gebedek"
+      />
+
+      <div class="name text-center">
+        <h2 class="heading-big">Şule Gebedek</h2>
+        <p>Computer Engineer | Student</p>
+      </div>
+
+      <a href="#courses" class="btn btn-primary">Projelere Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Sertifikalar</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sertifika1</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sertifika2</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sertifika3</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h3 class="text-center heading-medium">Projeler</h3>
+
+      <div class="container">
+        <div class="courses">
+          <!-- Proje 1 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/projects.jpg" alt="C#" />
+              <span>C#,AspNet</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                Proje 1
+              </div>
+              <div class="description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Ratione nostrum mollitia nam at voluptatum rerum recusandae omnis error quas iure?
+              </div>
+              <div class="instructor">Şule Gebedek</div>
+            </div>
+          </div>
+          <!-- Proje 2 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/projects.jpg" alt="Python" />
+              <span>Python</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                Proje 2
+              </div>
+              <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Commodi aliquam veritatis quas facilis doloremque animi voluptatibus facere provident accusantium deserunt!
+              </div>
+              <div class="instructor">Şule Gebedek</div>
+            </div>
+          </div>
+
+          <!-- Proje 3 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/projects.jpg" alt="Java" />
+              <span>Java</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                Proje 3
+              </div>
+              <div class="description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Laboriosam animi esse obcaecati dicta fuga tempore eum ad enim maiores omnis.
+              </div>
+              <div class="instructor">Şule Gebedek</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="İsim"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-Mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="Mesajınız..."
+            ></textarea>
+          </div>
+
+          <center><button type="submit" class="btn btn-block">Gönder</button></center>
+        </form>
+
+        
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
